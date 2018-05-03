@@ -6,3 +6,5 @@
 #     https: false
 #   )
 # end
+
+ActiveModel::Serializer.config.adapter = ActiveModelSerializers::Adapter::JsonApi
